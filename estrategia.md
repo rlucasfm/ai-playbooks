@@ -72,4 +72,34 @@ Faça este **exercício**:
 3. Construa um portfólio de IA de 3 anos: 5-6 projetos de ganho rápido e 1-2 projetos de longo prazo.
 4. Reflita sobre como um time de IA iria se encaixar na sua organização: Um novo setor? Parte integrante do setor de Engenharia ou TI? Profissionais distribuidos entre os times?
 
+## Reduzindo as barreiras para o uso de IA
+Historicamente, as barreiras para o uso de IA nunca estiveram tão baixas. Num passado não muito distante, eram necessários mestres e doutores com capacidade para implementar algoritmos completos e estruturas caras e dedicadas para a aplicação destes algoritmos. Hoje temos ferramentas de uso comum que aplicam IA como o famigerado ChatGPT, Claude.ai e bibliotecas que abstraem a complexidade destes algoritmos complexos como Tensorflow, AutoML, PyTorch, etc. O hardware para executar estes algoritmos e pipelines de dados estão hoje mais acessíveis que nunca, com o acesso facilitado a GPUs e TPUs (Google Colaboratory, por exemplo), fora serviços como o Groq, que facilitam o uso de hardware especializado com custos acessíveis.
 
+### Barreira: Hardware
+Existem também hoje plataformas Cloud que facilitam o uso e distribuição destes serviços, como Google Cloud Platform (GCP), AWS, Microsoft Azure, IBM Data Pak, etc.
+Hardware especializado acessível em qualquer lugar do mundo, com um baixo custo, sem a necessidade de investir inicialmente em máquinas caras que serão aplicadas apenas nas novas soluções de IA.
+
+### Barreira: Software
+Ferramentas cada vez mais acessíveis para gerenciamento de dados, aplicação de modelos de IA e automação de pipelines de ciência de dados tornam a criação de soluções mais simples:
+- Google TensorFlow
+- Apache MXNet
+- Facebook PyTorch
+- Azure ML Studio
+- IBM WatsonX
+- AWS Bedrock
+- Google Gemini
+- OpenAI Platform
+- Claude.ai Platform
+- Hugging Face
+
+São exemplos de bibliotecas, plataformas e ferramentas para aplicação direta de IA sem a necessidade de um conhecimento extensivo nos fundamentos matemáticos por trás da tecnologia.
+
+### Barreira: Dados e Algoritmos
+Uma questão que pode aparecer diretamente é: Para começar meu portfolio de IA, devo primeiro organizar uma equipe com profissionais especialistas?
+A resposta seria obviamente sim, há 5 ou 6 anos atrás. Hoje não há essa necessidade direta em projetos de ganho rápido mais simples. A caça por talentos capacitados em IA pode ser feita de forma gradativa graças à marketplaces de dados e algoritmos.
+Estes marketplaces possibilitam que o acesso à dados, de outra forma dificeis de obter, sejam acessados e usados de maneira livre, de forma simplificada. Também disponibilizam algoritmos criados, testados e melhorados por uma comunidade de especialistas de maneira *open-source*. Exemplos:
+- Kaggle
+- Algorithmia
+- Exchange.ai
+
+## Economia de IA
