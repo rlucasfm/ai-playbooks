@@ -103,3 +103,28 @@ Estes marketplaces possibilitam que o acesso à dados, de outra forma dificeis d
 - Exchange.ai
 
 ## Economia de IA
+Existem, basicamente, 3 pontos de atenção quanto a economia relacionada à IA, e que vão influenciar diretamente como os investimentos serão gerenciados neste setor.
+
+### Software
+IA pode ser extremamente poderosa e útil, e é porém extremamente complexa e uma área de estudos muito ampla.
+Programar uma rede neural desde seus fundamentos, por exemplo, é uma atividade complexa e que requer conhecimentos específicos e relativamente dificeis: Naturalmente, eram necessários Phds especializados na área para resolver estes problemas. Profissionais com um alto valor no mercado, e consideravelmente escassos.
+Historicamente, a aplicação de IA era limitada pelo seu "preço": É muito caro para implementar algo significativo.
+
+> A Google novamente muda o jogo: Tensorflow
+
+Em 2015, Google lança na comunidade open-source o Tensorflow, uma biblioteca que facilita diretamente a criação de redes neurais e sua aplicação no mundo real.
+Junto com ela, diversas bibliotecas e frameworks foram sendo gradativamente lançados ao mercado. 
+Surgiram também diversas soluções *no-code*, onde basta inserir uma coleção de dados e algumas instruções, e é possível ter sistemas de predição ou recomendação com uma capacidade interessante, dependendo da complexidade a aplicação.
+
+### Competência
+A primeira barreira de "preço" imposta pela necessidade de profissionais altamente especializados foi reduzida pelo aparecimento de ferramentas no mercado: Um bom desenvolvedor, especialista, tem a capacidade de criar uma rede neural aplicável, e solucionar problemas com Machine Learning e IA sem a necessidade de conhecer e aplicar toda a matemática por trás disto.
+Além disto, profissionais de diversas áreas agora são capazes de usar IA em seu dia-a-dia (vide ChatGPT), e também pensar em como essa tecnologia pode incrementar a sua qualidade-de-vida enquanto profissional.
+
+### Computação e Infraestrutura
+Conforme aplicações de IA foram se popularizando entre as organizações, a demanda por computação especializada ultrapassou as melhoras em hardware, ditadas pela Lei de Moore. Em resposta a isso, diversas companias começaram a investir e entregar para o mercado hardware altamente especializado para IA:
+ - **Google TPU**: Tensor Processing Unit, uma espécie de CPU feita apenas para processar tensores (um vetor matemático n-dimensional, conceito matemático necessário para a aplicação de Machine Learning), que tem a capacidade de processar 15 a 30 vezes mais rápidas que uma GPU/CPU. Até 80x mais eficiente, gastando muito menos energia que unidades convencionais
+ - **Groq LPU**: Language Processing Unit é uma criação da Groq, com o objetivo de ser uma unidade de processamento especializada em Modelos de Linguagem (Como ChatGPT e Llama), até 10x mais eficiente que seus concorrentes com CPU/GPU com respostas mais rápidas quando aplicado a LLMs (Large Language Models).
+
+### Dados
+A base para soluções de Machine Learning, ou mesmo aplicações de IA Generativa é **dados**. Nutrir uma cultura de dados é um ponto-chave essencial para o sucesso de qualquer organização moderna, seja para Business Intelligence e para tomadas de decisões baseadas em dados, mas também para aplicações modernas de IA.
+
