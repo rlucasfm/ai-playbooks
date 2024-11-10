@@ -103,7 +103,7 @@ Estes marketplaces possibilitam que o acesso à dados, de outra forma dificeis d
 - Exchange.ai
 
 ## Economia de IA
-Existem, basicamente, 3 pontos de atenção quanto a economia relacionada à IA, e que vão influenciar diretamente como os investimentos serão gerenciados neste setor.
+Existem, basicamente, 4 pontos de atenção quanto a economia relacionada à IA, e que vão influenciar diretamente como os investimentos serão gerenciados neste setor.
 
 ### Software
 IA pode ser extremamente poderosa e útil, e é porém extremamente complexa e uma área de estudos muito ampla.
@@ -126,5 +126,76 @@ Conforme aplicações de IA foram se popularizando entre as organizações, a de
  - **Groq LPU**: Language Processing Unit é uma criação da Groq, com o objetivo de ser uma unidade de processamento especializada em Modelos de Linguagem (Como ChatGPT e Llama), até 10x mais eficiente que seus concorrentes com CPU/GPU com respostas mais rápidas quando aplicado a LLMs (Large Language Models).
 
 ### Dados
-A base para soluções de Machine Learning, ou mesmo aplicações de IA Generativa é **dados**. Nutrir uma cultura de dados é um ponto-chave essencial para o sucesso de qualquer organização moderna, seja para Business Intelligence e para tomadas de decisões baseadas em dados, mas também para aplicações modernas de IA.
+A base para soluções de Machine Learning, ou mesmo aplicações de IA Generativa são **dados**. Nutrir uma cultura de dados é um ponto-chave essencial para o sucesso de qualquer organização moderna, seja para Business Intelligence e para tomadas de decisões baseadas em dados, mas também para aplicações modernas de IA.
 
+![University of Pennsylvania](economics-ai-data-1.png)
+
+Coleções de dados são o principal combustível para IA: Algoritmos de Machine Learning dependem de dados para serem treinados e IA generativa, apesar de pré-treinada com volumes absurdos de dados, se beneficiam **muito** de informações específicas, tanto para fine-tuning, quanto para base de soluções mais complexas como RAG (Retrieval Augmented Generation) ou soluções de agentes por contexto.
+
+## Inovação de Processos e Produtos
+Hoje, não é dificil convencer que tecnologias como *ChatGPT* podem ser extremamente valiosos para incrementar a eficiência operacional. Capacidades de analise de grandes quantidades de dados, sumarização, geração de conteúdo multimodal, etc, tem se tornado ferramentas corriqueiras para boa parte da população. Não é tão facil, porém, convencer executivos que a IA pode ser usada como um motor para alavancar inovação de produtos e processos.
+
+### Inovação de Produtos
+- Criação da Halicina: Um antibiótico gerado sinteticamente, criado por IA, capaz de solucionar o problema latente das "superinfecções". Após analisar mais de 100 milhões de compostos, pesquisadores do MIT conseguiram com apenas 3 dias, identificar um novo candidato à antibiótico: Um antibiótico não-toxico as celulas humanas, distinto em estrutura de qualquer outro tipo de antibiótico - Criado inteiramente por IA.
+- IBM Watson p53: O Watson digeriu cerca de 23 milhões de artigos médicos de diversas disciplinas para encontrar informações sobre um tumor conhecido como p53 (Associado com metade de todos os tipos de cancer). Em pouco tempo, Watson foi capaz de identificar 6 proteinas desconhecidas que interagem diretamente com o p53, feito este que demoraria cerca de 6 anos de pesquisa para ser alcançado sem IA.
+- Autodesk Chassis: A Autodesk buscava desenvolver um novo tipo de chassis, para isto, acoplou uma grande quantidade de sensores em um tipo antigo de chassis para medir informações como estresse, torções, temperaturas, deslocamentos, e qualquer outro tipo de informação valiosa para este tipo de projeto. O veículo foi dirigido levando-o ao limite. Após 20 milhões de data points, a IA gerou um novo modelo de chassis completamente diferente dos padrões: Estruturas que relembram ossos de mamute, assimétrico e com detalhes extremamente inovadores.
+
+![Chassis Autodesk](chassis-autodesk.png)
+
+### Inovação de Processos
+- Google Data Center Cooling: A Google, após coletar diversos dados sobre o sistema de refrigeração de um de seus data centers. Com isto, criou um sistema capaz de gerenciar os atuadores deste sistema de forma a otimizar a eficiencia energética e os resultados de resfriamento. Após a aplicação do sistema, o uso de energia caiu em 40%, e a sobrecarga relacionada ao consumo de energia melhorou em 15%.
+- Amazon: Aplicação de Machine Learning para criar sistemas de recomendação de produtos para seus clientes.
+- Seguros: Empresas de seguros aplicando Machine Learning para evoluir o processo de análise dos clientes para melhorar o suporte e velocidade de avaliação.
+
+## Fatores Organizacionais e Cultura
+A forma como as empresas se organizam influenciam diretamente no sucesso de projetos de inovação e de tecnologias estado-da-arte como IA. Algumas empresas estão acostumadas com cenários voláteis e projetos em meios caóticos, outras porém são menos flexíveis e mais aversas ao risco. Cabe a você explorar os fatores da organização e entender como organizar-se para execução de cada projeto, tendo em vista a estratégia principal e como a organização de Portfólio de Projetos de IA visa facilitar a adoção e execução destes projetos.
+Uma questão interessante a pensar é quanto a Centralização da equipe de execução dos projetos: Vale a pena centralizar ou descentralizar?
+
+| Descentralização                                           | Centralização                                              |
+|------------------------------------------------------------|------------------------------------------------------------|
+| Melhor para avaliar o mercado local e "conhecimento tácito"| Inovação disruptiva aplicável além de grupos de pesquisa individuais |
+| Mais envolvido com operações e identifica problemas e soluções alternativas | Busca ampla por informações externas além dos grupos individuais |
+| Não facilita a coordenação entre departamentos             | Supera a falta de coordenação entre departamentos         |
+
+Importante denotar que estruturas descentralizadas tendem a se beneficiar com mais facilidade de investimentos em IA e Inovação. Organizações com estrutura de inovação descentralizadas são mais prováveis em adotar IA e Data Analytics, e são 3% mais produtivas quando investem em inovação descentralizada e IA concomitamente.
+
+## Monitoramento, avaliação e Métricas de Sucesso para IA
+Como qualquer tecnologia, IA evolui e suas aplicações devem ser constantemente acompanhadas e avaliadas, principalmente como forma de medir os *esforços X retornos* dos projetos, e medir também se as soluções estão performando de maneira satisfatória, ou se o produto esta se degradando e perdendo utilidade.
+Além do mais, implementar serviços de IA vai muito além de apenas desenvolver um modelo, alocá-lo em uma cloud e disponibilizar para os clientes. Existem uma série de riscos e oportunidades que devem ser acompanhadas de perto:
+1. Garantir a Precisão e Desempenho do Modelo: Modelos de IA podem perder precisão ao longo do tempo, um fenômeno conhecido como "decadência do modelo". Isso ocorre quando o modelo não é mais capaz de capturar adequadamente o padrão dos dados devido a mudanças no comportamento dos usuários ou nas condições de mercado.
+2. Mitigar Riscos e Vieses: A IA pode amplificar vieses existentes nos dados, o que pode gerar consequências negativas para a organização e para os clientes. A avaliação contínua permite identificar e corrigir esses vieses, garantindo a justiça e conformidade do sistema.
+3. Ajustar e Melhorar o ROI: O monitoramento e a avaliação permitem que a organização meça o retorno sobre o investimento (ROI) da IA, ajudando a justificar os investimentos e a ajustar a estratégia para maximizar o impacto financeiro e operacional.
+
+### Principais métricas para Avaliar o Sucesso de IA
+1. Métricas de Desempenho do Modelo
+Essas métricas avaliam a precisão e a capacidade do modelo de IA de executar sua tarefa com eficácia:
+- Acurácia: Mede a porcentagem de previsões corretas em relação ao total de previsões realizadas. É fundamental para modelos de classificação e outros que precisam de alta precisão.
+- Precisão e Recall: Indicadas para situações onde há um balanceamento entre minimizar falsos positivos (precisão) e falsos negativos (recall). Muito utilizadas em áreas como diagnóstico médico ou detecção de fraude, onde erros de um tipo podem ser mais prejudiciais do que de outro.
+- F1 Score: Combina precisão e recall em uma única métrica, oferecendo uma visão equilibrada do desempenho em casos onde há necessidade de balanceamento entre ambos.
+- Erro Médio Absoluto (MAE) e Erro Quadrático Médio (MSE): Utilizados em modelos de regressão, que preveem valores contínuos. Essas métricas indicam a média dos erros cometidos pelo modelo.
+
+2. Métricas Operacionais
+Essas métricas avaliam a eficiência do modelo no contexto operacional e sua viabilidade para o negócio:
+- Latência: Mede o tempo de resposta do modelo, ou seja, quanto tempo ele leva para processar uma entrada e fornecer uma saída. É crucial em aplicações onde o tempo de resposta impacta diretamente a experiência do usuário, como em sistemas de recomendação em tempo real.
+- Tempo de Processamento: Relaciona-se ao custo computacional e pode ajudar a otimizar recursos e reduzir custos de infraestrutura.
+- Custo de Implementação e Manutenção: Avalia o custo total da execução do modelo, incluindo o treinamento, atualizações e manutenção, permitindo que a organização monitore o custo-benefício do modelo ao longo do tempo.
+
+3. Métricas de Impacto no Negócio
+Essas métricas mensuram o valor que o modelo de IA está efetivamente gerando para a organização:
+- Retorno sobre Investimento (ROI): Compara o valor gerado pela IA em relação ao custo de desenvolvimento e manutenção. Um ROI positivo indica que a IA está gerando valor financeiro, justificando o investimento.
+- Taxa de Conversão: No caso de modelos que influenciam diretamente as decisões dos clientes, como recomendadores de produtos, a taxa de conversão mede o impacto das previsões de IA no comportamento do usuário.
+- Engajamento do Cliente: Avalia se a IA está aumentando o engajamento do cliente, como o tempo gasto na plataforma ou a interação com funcionalidades específicas recomendadas pelo modelo.
+- Save/Redução de Custos: Mede a redução de custos operacionais atribuída à IA, como automação de processos ou otimização de recursos.
+
+4. Métricas de Conformidade e Ética
+Com o aumento da regulamentação em torno da IA, é essencial monitorar métricas que garantam conformidade e práticas éticas, e isto é explicado em mais detalhes no Playbook de Governança de IA:
+- Transparência e Explicabilidade: Medidas de quão interpretável é o modelo de IA para humanos. Isso é particularmente importante em setores regulamentados, como o financeiro e de saúde, onde decisões automatizadas podem precisar ser explicadas.
+- Taxa de Viés: Avalia se o modelo está mostrando sinais de vieses indesejáveis que possam discriminar determinados grupos de usuários. Modelos com taxas altas de viés podem prejudicar a reputação da empresa e infringir leis de discriminação.
+- Conformidade com Regulamentos de Privacidade: Verifica se o modelo está em conformidade com leis de proteção de dados (como LGPD ou GDPR), garantindo que dados sensíveis dos usuários estão sendo usados de forma responsável.
+
+### Ferramentas e Práticas para o Monitoramento Contínuo
+Interessados em aplicar projetos de IA devem estar cientes das ferramentas e práticas que facilitam o monitoramento e a avaliação contínuos:
+- Implementação de Pipelines de Monitoramento Automatizado: Pipelines que monitoram continuamente a performance e alertam quando há degradação do modelo. Ferramentas como MLflow, TensorFlow Extended (TFX) e DataRobot oferecem funcionalidades de monitoramento em tempo real.
+- Feedback do Usuário: Coletar feedback dos usuários sobre a precisão e a eficácia do sistema de IA permite ajustar o modelo de acordo com as necessidades reais do mercado.
+- Monitoramento de Drift de Dados: Ferramentas que monitoram mudanças nos dados de entrada (data drift) e nos padrões de comportamento dos usuários podem identificar rapidamente quando o modelo precisa ser recalibrado.
+- Auditorias Regulares de IA: Realizar auditorias periódicas para avaliar os resultados das métricas de conformidade e ética. Essa prática não só ajuda a manter o modelo alinhado com os valores da empresa, como também garante que ele continue em conformidade com regulamentações emergentes.
