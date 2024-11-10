@@ -128,7 +128,7 @@ Conforme aplicações de IA foram se popularizando entre as organizações, a de
 ### Dados
 A base para soluções de Machine Learning, ou mesmo aplicações de IA Generativa são **dados**. Nutrir uma cultura de dados é um ponto-chave essencial para o sucesso de qualquer organização moderna, seja para Business Intelligence e para tomadas de decisões baseadas em dados, mas também para aplicações modernas de IA.
 
-![University of Pennsylvania](economics-ai-data-1.png)
+![University of Pennsylvania](images/economics-ai-data-1.png)
 
 Coleções de dados são o principal combustível para IA: Algoritmos de Machine Learning dependem de dados para serem treinados e IA generativa, apesar de pré-treinada com volumes absurdos de dados, se beneficiam **muito** de informações específicas, tanto para fine-tuning, quanto para base de soluções mais complexas como RAG (Retrieval Augmented Generation) ou soluções de agentes por contexto.
 
@@ -140,7 +140,7 @@ Hoje, não é dificil convencer que tecnologias como *ChatGPT* podem ser extrema
 - IBM Watson p53: O Watson digeriu cerca de 23 milhões de artigos médicos de diversas disciplinas para encontrar informações sobre um tumor conhecido como p53 (Associado com metade de todos os tipos de cancer). Em pouco tempo, Watson foi capaz de identificar 6 proteinas desconhecidas que interagem diretamente com o p53, feito este que demoraria cerca de 6 anos de pesquisa para ser alcançado sem IA.
 - Autodesk Chassis: A Autodesk buscava desenvolver um novo tipo de chassis, para isto, acoplou uma grande quantidade de sensores em um tipo antigo de chassis para medir informações como estresse, torções, temperaturas, deslocamentos, e qualquer outro tipo de informação valiosa para este tipo de projeto. O veículo foi dirigido levando-o ao limite. Após 20 milhões de data points, a IA gerou um novo modelo de chassis completamente diferente dos padrões: Estruturas que relembram ossos de mamute, assimétrico e com detalhes extremamente inovadores.
 
-![Chassis Autodesk](chassis-autodesk.png)
+![Chassis Autodesk](images/chassis-autodesk.png)
 
 ### Inovação de Processos
 - Google Data Center Cooling: A Google, após coletar diversos dados sobre o sistema de refrigeração de um de seus data centers. Com isto, criou um sistema capaz de gerenciar os atuadores deste sistema de forma a otimizar a eficiencia energética e os resultados de resfriamento. Após a aplicação do sistema, o uso de energia caiu em 40%, e a sobrecarga relacionada ao consumo de energia melhorou em 15%.
