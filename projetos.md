@@ -63,3 +63,25 @@ No geral, Feature Engineering é um processo iterativo que exige análise e expe
 
 Esses projetos são eficazes porque atraem grande participação dos usuários enquanto oferecem valor em troca, como acesso a ofertas exclusivas ou a possibilidade de ganhar prêmios. No entanto, é essencial que as organizações garantam que esses projetos estejam em conformidade com regulamentações de privacidade e coleta de dados, informando aos usuários sobre o uso das informações coletadas.
 
+#### Avaliar
+Desde a implementação, mesmo que ainda muito básica, do primeiro modelo, já é muito importante avaliar o seu funcionamento. Nesta fase, colhe-se feedback sobre o modelo de IA, e como os seus resultados tem se apresentado. Porém nem sempre é possível ter casos de uso reais suficientes para ter um feedback apropriado: Podem ser necessários muitos dados para treinar e avaliar um modelo complexo. Por isso, é comum a utilização de um método chamado **Validação Cruzada (Cross-validation)**, onde mesmo que em posse de um único dataset, podemos treinar e avaliar modelos, e testá-los de forma padronizada, inclusive tendo a possibilidade de comprar diversos modelos ou um unico modelo com diversas configurações de hiperparâmetros.
+Para este fim, segue-se as seguintes etapas:
+
+1. Separar o dataset em dois subgrupos: Treinamento e Validação (Geralmente na proporção 80%-20%);
+2. Treinar o modelo com o subgrupo de treinamento e verificar a sua performance usando métricas relevantes: Loss, Recall, F1 Score, RMSE, ROC...
+3. Aplicar o modelo no subgrupo de validação e analisar as mesmas métricas.
+
+A partir desta avaliação, vai ser possível verificar comportamentos que vão revelar a qualidade do modelo e possíveis problemas como viés ou alta variância. Cada métrica irá revelar algum tipo de informação, e não existe "receita de bolo" aqui: Esta etapa é tanto ciência quanto arte, e depende da visão crítica e treinada de um especialista que irá tomar os insights a partir dos dados e entender quais passos tomar. 
+Existem porém certas formas de entender os principais problemas a partir de uma comparação entre as métricas de treinamento e de validação, e para isso vamos ver a performance comparativa em ambos considerando uma métrica de comparação, por exemplo, comparando o Loss (Perda, quanto maior, pior):
+
+1. Treinamento Alto - Validação Alto: O modelo não conseguiu atingir uma boa performance, indicando que muito provavelmente as features escolhidas não expressam relações interessantes com a varíavel-alvo, ou que o modelo escolhido não é aplicável ao problema. Também podem haver problemas com os hiperparametros escolhidos. Este comportamento aponta **underfitting**, ou **alto viés**.
+2. Treinamento Baixo - Validação Alto: O modelo pareceu entender bem as relações entre as características e ter uma performance significativa quando avaliando os dados de treinamento, porém ao aplicar os dados de validação cruzada, a performance decai consideravelmente. Isto aponta **Alta variância**, também chamado de **Overfitting**. Esta característica aponta um modelo que se aproximou demais dos dados de treinamento, perdendo a capacidade de generalizar dados além do treinamento.
+3. Treinamento Baixo - Validação Baixo: É um bom indicativo que o modelo tem a capacidade de generalizar e tem uma performance positiva, pois conseguiu aproximar bem os valores do dataset, e também apresenta uma boa capacidade de ter bons resultados com valores fora do dataset.
+
+Existem diversas formas de tratar viés e variância, envolvendo modificar o modelo e seus parâmetros durante o treinamento.
+
+Outro tipo de avaliação interessante usando a metodologia de validação cruzada, é após definido o modelo, realizar diferentes testes com o subgrupo de validação, usando o mesmo modelo porém com diferentes hiperparâmetros, para um ajuste fino do modelo.
+
+Modelos de Inteligência Artificial Generativa, apesar de parecerem semelhantes a "caixas-preta", onde não há acesso aos parametros, projetos que utilizam mesmo LLMs comerciais closed-source, devem estar atentos a usar APIs ou Interfaces que possibilitem a modificação de parametros para customização da solução. Parametros comuns para otimizar LLMs como ChatGPT são Temperatura, Top-K e Top-P, e a seu ajuste fino pode significar a diferença entre um produto bem sucedido e um produto sem aplicação de uso real.
+
+### MIT 4 Phases
