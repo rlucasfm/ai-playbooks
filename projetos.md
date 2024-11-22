@@ -121,4 +121,64 @@ O modelo de Estratégia e Governança de IA proposto pela *University of Pennsyl
 A metodologia proposta pela *University of Pennsylvania* é descrita juntamente com uma série de orientações quanto à governança e estratégia para implementação de projetos de IA, e portanto, não existe fora de um contexto maior, e muitas etapas devem ser observadas mesmo antes de iniciar um projeto de IA, como a estratégia da empresa para estes projetos, e se serão projetos de curto ou longo prazo, como estes projetos devem ser equilibrados dentro de um portfólio de projetos sustentável e preocupações como viéses e ética.
 
 ### IBM Data Science Methodology (John Rollins)
+Esta metodologia foi proposta por *John Rollins*, na IBM, como um modelo de para projetos de Data Science, e podem ser aplicados diretamente a projetos de IA. Esta metodologia propõe 10 etapas e também considera algumas fases como iterativas, ou seja, é comum que se repitam em ciclos.
 
+#### Business Understanding (Entendimento do Negócio)
+A metodologia de Data Science da IBM começa com o processo de busca de esclarecimento das necessidades e regras de negócio com o objetivo de obter entendimento completo do negócio. Esta etapa segue o seguinte processo:
+
+1. Definir: Definir claramente a questão/problema é vital para estabelecer um guia claro para a abordagem análitica (próxima etapa).
+2. Entender: Entender o objetivo e porquês da pessoa que está definindo a questão também é crucial para estabelecer um problema claro.
+3. Objetivos: Objetivos que apoiem a meta (definida pela questão levantada) devem ser identificados para priorizar e planejar a solução do problema.
+4. Engajamento: O engajamento de diversos setores e *stakeholders* é imprescindível para determinar os requerimentos e clarificar as dúvidas.
+
+#### Analytic Approach (Abordagem Analitica)
+Esta etapa envolve escolher que tipo de abordagem será utilizada para resolver a questão levantada. Envolve as seguintes etapas:
+
+1. Padrões: Identificar quais padrões se apresentam no contexto da questão, pois são parte fundamental na definição de qual tipo de solução será aplicada.
+2. Abordagem: Diferentes tipos de padrões e relacionamentos nos dados vão requerir diferentes abordagens para a resolução eficiente do problema.
+3. Tipo de Questão: Existem 4 tipos de questões que podem ser definidas:
+    - **Descritivo**: Analisar/estudar o estado atual.
+    - **Diagnóstico**: Análise estatística dos dados.
+    - **Preditivo**: Previsão.
+    - **Prescritivo**: Recomendações.
+4. Machine Learning: A seleção de algoritmos de Machine Learning vai permitir que através de dados e da abordagem escolhida, identificar padrões e relações de forma autonoma, sem programação explicita, e gerar resultados úteis para a resolução da questão.
+
+#### Data Requirements & Data Collection (Requerimentos de Dados e Aquisição de Dados)
+Esta etapa descreve a criticalidade da identificação, fornecimento, entendimento e preparação dos dados necessários para a análise.
+
+1. Requerimentos de Dados: É feita uma análise geral do estado atual dos dados na organização, incluindo as necessidades de avaliabilidade, qualidade e conteúdo. É necessário ter uma visão geral de como estão os dados e do que é necessário para obter os dados importantes para a resolução do problema.
+2. Aquisição de Dados: Requer conhecer o estado e estrutura de dados da organização, sabendo sobre a fonte e onde encontrar os dados importantes, estratégias de aquisição de dados e quais medidas tomar quando houverem dados indisponíveis.
+3. Data Integration: Envolve diretamente a *Engenharia de Dados*, onde será necessário extrair, mesclar dados de diversas fontes. Eliminar dados redundantes e preparar para uso posterior. Pode também envolver automatização de processos em Bancos de Dados para aumentar a eficiencia e velocidade dos processos de dados.
+
+#### Data Understanding (Entendimento dos Dados)
+A aplicação de métodos de análise estatística e visualização para identificar gaps, dados indisponíveis e planejar a sua aquisição/substituição. Também envolve aferir a qualidade e significancia dos dados coletados. Neste etapa também pode ser necessário retornar às primeiras fases da metodologia e refinar tanto o entendimento do problema quanto à questão levantada inicialmente.
+
+#### Data Preparation (Preparação de Dados)
+Então, os dados serão transformados para tratar problemas como dados faltantes, formatação, duplicação e *feature engineering*. Esta fase é fundamental para a criação de um bom modelo.
+
+Um ponto a ser observado neste momento é quanto a necessidade de autoamtizar processos na infraestrutura de dados para maior eficiencia da transformação dos mesmos, porém com atenção para as prioridades que são a solução dos problemas e modelagem posterior.
+
+#### Modeling (Modelagem)
+As etapas de modelagem e avaliação são ponto alto de toda a metodologia de Data Science da IBM, são ponto fundamental e talvez o ponto mais importante de todo o processo de moldar resultados analíticos e refinar as estratégias de solução de problemas.
+
+1. Modelagem de Dados: Tendo já definidos os dados e abordagem analítica, aqui se define quais dados e como serão inseridos no modelo de Machine Learning, tendo uma visão clara de objetivo e das relações entre os dados, causas e efeitos.
+2. Conjunto de Treinamento e Calibração: O conjunto de treinamento é uma coleção de dados que funcionarão como um medidor para calibrar o modelo. Experimentar com diversos algoritmos para os dados é parte importante deste processo. O sucesso do projeto irá depender tanto do entendimento do problema e da abordagem analítica escolhida e será refletida aqui.
+
+#### Evaluation (Avaliação)
+É um processo iterativo, feito juntamento com a construção do modelo. Ocorre antes da implantação, como uma forma de avaliar e garantir a qualidade do modelo e seu alinhamento com os requerimentos e questões iniciais.
+
+São aplicadas medidas de diagnóstico próprias para avaliar a qualidade de modelos de Machine Learning: Testes de Significância, curva ROC, F1 Score e outros metodos podem ser usados para avaliar o modelo de maneira padronizada.
+
+Também é importante estar atento a vieses que podem influenciar os resultados de forma negativa e que possam estar desalinhados com os valores da organização, ou mesmo em desacordo com regulações legais.
+
+#### Deployment (Implantação)
+Aplicação no mundo real, é uma das etapas mais críticas de todo o processo e tem o objetivo de maximizar o impacto do projeto através de:
+- Engamento dos Stakeholders: Fazer as respostas serem relevantes e úteis para engajar os stakeholders, que podem incluir os lideres das organizações, marketing, TI, desenvolvedores, para que o produto possa ser lançada sob a tutela de diversas especialidades.
+- Lançamento do Modelo: Após avaliado, o modelo será lançado com o nível aceitável de confiança para teste de funcionalidade em tempo real. O feedback do usuário é o principal objetivo dessa etapa em suas primeiras iterações, para elevar a performance do modelo.
+
+#### Feedback
+O caráter cíclico da metodologia proposta por John Rollins descreve uma refinação a cada etapa e ciclo. O feedback contínuo é a raiz do aprendizado contínuo, e a refinação depende dos dados adquiridos pós-implementação e do conhecimento adquirido nesta etapa.
+
+Integrar os insights gerados pelo feedback com a equipe é fundamental para refinar o modelo e intervir quando necessário. Re-implantação do modelo refinado, ações em tempo real e feedback persistente são chave para que os próximos ciclos sejam positivos e continuem a evoluir o projeto.
+
+### CRISP-DM
