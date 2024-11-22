@@ -10,7 +10,7 @@ Entre algumas das metodologias que tem se provado no mercado estão:
 1. Stanford Interactive Loop.
 2. MIT 4 Phases
 3. University of Pennsylvania's AI G&S Model (Governance and Strategy)
-4. IBM Data Science Methodology (John Rollins)
+4. IBM - Foundational Data Methodology (John Rollins)
 5. CRISP-DM
 
 Cada abordagem apresenta pontos únicos, porém apontam aspectos diferentes da aplicação de projetos de IA, que vão desde uma visão mais estratégica (G&S Model) até detalhes mais técnicos (Stanford Interactive Loop).
@@ -120,7 +120,7 @@ O modelo de Estratégia e Governança de IA proposto pela *University of Pennsyl
 
 A metodologia proposta pela *University of Pennsylvania* é descrita juntamente com uma série de orientações quanto à governança e estratégia para implementação de projetos de IA, e portanto, não existe fora de um contexto maior, e muitas etapas devem ser observadas mesmo antes de iniciar um projeto de IA, como a estratégia da empresa para estes projetos, e se serão projetos de curto ou longo prazo, como estes projetos devem ser equilibrados dentro de um portfólio de projetos sustentável e preocupações como viéses e ética.
 
-### IBM Data Science Methodology (John Rollins)
+### IBM Foundational Data Methodology (John Rollins)
 Esta metodologia foi proposta por *John Rollins*, na IBM, como um modelo de para projetos de Data Science, e podem ser aplicados diretamente a projetos de IA. Esta metodologia propõe 10 etapas e também considera algumas fases como iterativas, ou seja, é comum que se repitam em ciclos.
 
 #### Business Understanding (Entendimento do Negócio)
@@ -182,3 +182,19 @@ O caráter cíclico da metodologia proposta por John Rollins descreve uma refina
 Integrar os insights gerados pelo feedback com a equipe é fundamental para refinar o modelo e intervir quando necessário. Re-implantação do modelo refinado, ações em tempo real e feedback persistente são chave para que os próximos ciclos sejam positivos e continuem a evoluir o projeto.
 
 ### CRISP-DM
+É um acrônimo para **Cross-Industry Standard Process for Data Mining**. Surge como uma padronização, no inicio dos anos 2000, para processos de Mineração de Dados e Data Science. Foi desenvolvido por um consórcio de 5 empresas que iniciou no fim da decada de 90:
+- Integral Solutions Ltd (ISL)
+- Teradata
+- Daimler AG
+- NCR Corporation
+- OHRA
+
+É um processo de 6 etapas que assemelha-se um pouco com a metodologia proposta por John Rollins:
+
+1. Business Understanding (Entendimento do Negócio)
+2. Data Understanding (Entendimento dos Dados) - Combina os estágios de **Data Requirements**, **Data Collection** e **Data Understanding** da metodologia da IBM, e não divide claramente cada etapa.
+3. Modeling (Modelagem)
+4. Evaluation (Avaliação)
+5. Deployment (Implantação)
+
+A metodologia **CRISP-DM** não descreve as etapas que sucedem a implantação do modelo de Machine Learning, que são descritas pelas fases de **Feedback** do método IBM, porém pressupõe que a natureza cíclica deste processo, perpasse a aquisição de feedback dos stakeholders após a implantação da solução.
